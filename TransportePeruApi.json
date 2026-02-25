@@ -1,0 +1,94 @@
+{
+    "uuid": "554ed34e-589a-4320-9e47-b2d1b2b3111e",
+    "lastMigration": 33,
+    "name": "TransportePeruApi",
+    "endpointPrefix": "",
+    "latency": 0,
+    "port": 3001,
+    "hostname": "",
+    "folders": [],
+    "routes": [
+        {
+            "uuid": "e45b03e1-c7b4-4ea0-babe-aa07f64194d4",
+            "type": "http",
+            "documentation": "",
+            "method": "get",
+            "endpoint": "rutas",
+            "responses": [
+                {
+                    "uuid": "e998ca28-d602-41e6-8ea5-2f0cb50c36b2",
+                    "body": "[\r\n  {\r\n    \"RutaID\": 1,\r\n    \"NombreRuta\": \"Línea 10: Baños del Inca - Centro\",\r\n    \"Empresa\": \"Empresa de Transportes El Cumbe S.A.\",\r\n    \"CostoViaje\": 1.50,\r\n    \"ColorHex\": \"#2E7D32\",\r\n    \"Estado\": \"Activo\",\r\n    \"Paraderos\": [\r\n      {\"id\": 101, \"nombre\": \"Plaza de Armas Baños\", \"lat\": -7.1632, \"lng\": -78.4635},\r\n      {\"id\": 102, \"nombre\": \"Puente Guzmango\", \"lat\": -7.1650, \"lng\": -78.4750},\r\n      {\"id\": 103, \"nombre\": \"Universidad Nacional de Cajamarca\", \"lat\": -7.1645, \"lng\": -78.4912},\r\n      {\"id\": 104, \"nombre\": \"C.C. El Quinde\", \"lat\": -7.1660, \"lng\": -78.5020},\r\n      {\"id\": 105, \"nombre\": \"Plaza de Armas Cajamarca\", \"lat\": -7.1553, \"lng\": -78.5153}\r\n    ]\r\n  },\r\n  {\r\n    \"RutaID\": 2,\r\n    \"NombreRuta\": \"Línea 20: San Sebastián - Tartar\",\r\n    \"Empresa\": \"Consorcio de Transportes San Sebastián\",\r\n    \"CostoViaje\": 1.20,\r\n    \"ColorHex\": \"#D32F2F\",\r\n    \"Estado\": \"Activo\",\r\n    \"Paraderos\": [\r\n      {\"id\": 201, \"nombre\": \"Sector Tartar\", \"lat\": -7.1420, \"lng\": -78.4850},\r\n      {\"id\": 202, \"nombre\": \"Óvalo Musical\", \"lat\": -7.1678, \"lng\": -78.5012},\r\n      {\"id\": 203, \"nombre\": \"Real Plaza\", \"lat\": -7.1690, \"lng\": -78.5030},\r\n      {\"id\": 204, \"nombre\": \"Iglesia San Sebastián\", \"lat\": -7.1580, \"lng\": -78.5120}\r\n    ]\r\n  },\r\n  {\r\n    \"RutaID\": 3,\r\n    \"NombreRuta\": \"Línea 12: Mollepampa - Santa Elena\",\r\n    \"Empresa\": \"Transportes Mollepampa S.A.C.\",\r\n    \"CostoViaje\": 1.00,\r\n    \"ColorHex\": \"#1976D2\",\r\n    \"Estado\": \"Activo\",\r\n    \"Paraderos\": [\r\n      {\"id\": 301, \"nombre\": \"Paradero Mollepampa\", \"lat\": -7.1750, \"lng\": -78.5050},\r\n      {\"id\": 302, \"nombre\": \"Cruce Av. Industrial\", \"lat\": -7.1710, \"lng\": -78.5090},\r\n      {\"id\": 303, \"nombre\": \"Mercado Central\", \"lat\": -7.1590, \"lng\": -78.5180},\r\n      {\"id\": 304, \"nombre\": \"Arco del Triunfo\", \"lat\": -7.1520, \"lng\": -78.5220},\r\n      {\"id\": 305, \"nombre\": \"Sector Santa Elena\", \"lat\": -7.1450, \"lng\": -78.5300}\r\n    ]\r\n  },\r\n  {\r\n    \"RutaID\": 4,\r\n    \"NombreRuta\": \"Línea 08: Shudal - San José\",\r\n    \"Empresa\": \"E.T. Shudal Express S.R.L.\",\r\n    \"CostoViaje\": 1.00,\r\n    \"ColorHex\": \"#FFA000\",\r\n    \"Estado\": \"Activo\",\r\n    \"Paraderos\": [\r\n      {\"id\": 401, \"nombre\": \"Entrada Shudal\", \"lat\": -7.1850, \"lng\": -78.5200},\r\n      {\"id\": 402, \"nombre\": \"La Paccha\", \"lat\": -7.1720, \"lng\": -78.5180},\r\n      {\"id\": 403, \"nombre\": \"Cruce Av. Perú\", \"lat\": -7.1650, \"lng\": -78.5160},\r\n      {\"id\": 404, \"nombre\": \"Jr. Amazonas\", \"lat\": -7.1580, \"lng\": -78.5140},\r\n      {\"id\": 405, \"nombre\": \"Paradero San José\", \"lat\": -7.1510, \"lng\": -78.5100}\r\n    ]\r\n  },\r\n  {\r\n    \"RutaID\": 5,\r\n    \"NombreRuta\": \"Línea 32: La Collpa - Estadium\",\r\n    \"Empresa\": \"Transportes y Turismo La Collpa\",\r\n    \"CostoViaje\": 2.00,\r\n    \"ColorHex\": \"#7B1FA2\",\r\n    \"Estado\": \"Activo\",\r\n    \"Paraderos\": [\r\n      {\"id\": 501, \"nombre\": \"Hacienda La Collpa\", \"lat\": -7.1820, \"lng\": -78.4650},\r\n      {\"id\": 502, \"nombre\": \"Cruce Av. Atahualpa\", \"lat\": -7.1680, \"lng\": -78.4880},\r\n      {\"id\": 503, \"nombre\": \"Hospital Regional\", \"lat\": -7.1630, \"lng\": -78.4950},\r\n      {\"id\": 504, \"nombre\": \"Estadio Héroes San Ramón\", \"lat\": -7.1590, \"lng\": -78.5080}\r\n    ]\r\n  },\r\n  {\r\n    \"RutaID\": 6,\r\n    \"NombreRuta\": \"Ruta Interurbana: Cajamarca - Encañada\",\r\n    \"Empresa\": \"Comité de Transportes Encañada Express\",\r\n    \"CostoViaje\": 5.00,\r\n    \"ColorHex\": \"#455A64\",\r\n    \"Estado\": \"Activo\",\r\n    \"Paraderos\": [\r\n      {\"id\": 601, \"nombre\": \"Terminal Vía de Evitamiento\", \"lat\": -7.1510, \"lng\": -78.5010},\r\n      {\"id\": 602, \"nombre\": \"El Gavilán\", \"lat\": -7.2100, \"lng\": -78.4500},\r\n      {\"id\": 603, \"nombre\": \"Sector Polloc\", \"lat\": -7.1200, \"lng\": -78.3500},\r\n      {\"id\": 604, \"nombre\": \"Cruce Michiquillay\", \"lat\": -7.1000, \"lng\": -78.2800},\r\n      {\"id\": 605, \"nombre\": \"Plaza Encañada\", \"lat\": -7.0800, \"lng\": -78.2400}\r\n    ]\r\n  },\r\n  {\r\n    \"RutaID\": 7,\r\n    \"NombreRuta\": \"Línea 16: San Polo - Open Plaza\",\r\n    \"Empresa\": \"Servicios de Transportes San Polo\",\r\n    \"CostoViaje\": 1.00,\r\n    \"ColorHex\": \"#00796B\",\r\n    \"Estado\": \"Activo\",\r\n    \"Paraderos\": [\r\n      {\"id\": 701, \"nombre\": \"Barrio San Polo\", \"lat\": -7.1400, \"lng\": -78.4900},\r\n      {\"id\": 702, \"nombre\": \"Cruce Hoyos Rubio\", \"lat\": -7.1430, \"lng\": -78.4950},\r\n      {\"id\": 703, \"nombre\": \"Hospital I\", \"lat\": -7.1450, \"lng\": -78.4980},\r\n      {\"id\": 704, \"nombre\": \"Colegio San Ramón\", \"lat\": -7.1520, \"lng\": -78.5050},\r\n      {\"id\": 705, \"nombre\": \"Open Plaza\", \"lat\": -7.1580, \"lng\": -78.4980}\r\n    ]\r\n  },\r\n  {\r\n    \"RutaID\": 8,\r\n    \"NombreRuta\": \"Línea 50: Otuzco - Junín\",\r\n    \"Empresa\": \"Transportes Ventanillas de Otuzco\",\r\n    \"CostoViaje\": 2.50,\r\n    \"ColorHex\": \"#C2185B\",\r\n    \"Estado\": \"Activo\",\r\n    \"Paraderos\": [\r\n      {\"id\": 801, \"nombre\": \"Ventanillas de Otuzco\", \"lat\": -7.1250, \"lng\": -78.4750},\r\n      {\"id\": 802, \"nombre\": \"Puente Otuzco\", \"lat\": -7.1350, \"lng\": -78.4850},\r\n      {\"id\": 803, \"nombre\": \"Vía Evitamiento Norte\", \"lat\": -7.1480, \"lng\": -78.4980},\r\n      {\"id\": 804, \"nombre\": \"Av. 13 de Julio\", \"lat\": -7.1530, \"lng\": -78.5100},\r\n      {\"id\": 805, \"nombre\": \"Cruce Jr. Junín\", \"lat\": -7.1570, \"lng\": -78.5140}\r\n    ]\r\n  },\r\n  {\r\n    \"RutaID\": 9,\r\n    \"NombreRuta\": \"Línea 02: Quiritimayo - San Vicente\",\r\n    \"Empresa\": \"E.T. Virgen del Carmen de Quiritimayo\",\r\n    \"CostoViaje\": 1.00,\r\n    \"ColorHex\": \"#5D4037\",\r\n    \"Estado\": \"Activo\",\r\n    \"Paraderos\": [\r\n      {\"id\": 901, \"nombre\": \"Barrio Quiritimayo\", \"lat\": -7.1620, \"lng\": -78.5320},\r\n      {\"id\": 902, \"nombre\": \"Santa Apolonia\", \"lat\": -7.1580, \"lng\": -78.5250},\r\n      {\"id\": 903, \"nombre\": \"Iglesia La Recoleta\", \"lat\": -7.1560, \"lng\": -78.5180},\r\n      {\"id\": 904, \"nombre\": \"Jr. Apurímac\", \"lat\": -7.1540, \"lng\": -78.5100},\r\n      {\"id\": 905, \"nombre\": \"Sector San Vicente\", \"lat\": -7.1480, \"lng\": -78.5050}\r\n    ]\r\n  },\r\n  {\r\n    \"RutaID\": 10,\r\n    \"NombreRuta\": \"Línea 22: Cumbemayo - Belén\",\r\n    \"Empresa\": \"Empresa de Transportes Turismo Cumbemayo\",\r\n    \"CostoViaje\": 1.20,\r\n    \"ColorHex\": \"#689F38\",\r\n    \"Estado\": \"Activo\",\r\n    \"Paraderos\": [\r\n      {\"id\": 1001, \"nombre\": \"Cumbemayo Km 2\", \"lat\": -7.1880, \"lng\": -78.5700},\r\n      {\"id\": 1002, \"nombre\": \"Sector Agocucho\", \"lat\": -7.1750, \"lng\": -78.5500},\r\n      {\"id\": 1003, \"nombre\": \"Paradero San Martín\", \"lat\": -7.1680, \"lng\": -78.5350},\r\n      {\"id\": 1004, \"nombre\": \"Iglesia Belén\", \"lat\": -7.1590, \"lng\": -78.5220},\r\n      {\"id\": 1005, \"nombre\": \"Jr. Tarapacá\", \"lat\": -7.1560, \"lng\": -78.5170}\r\n    ]\r\n  },\r\n  {\r\n    \"RutaID\": 11,\r\n    \"NombreRuta\": \"Línea 05: Av. Independencia - Norte\",\r\n    \"Empresa\": \"Evitamiento Norte Express S.A.\",\r\n    \"CostoViaje\": 1.00,\r\n    \"ColorHex\": \"#0097A7\",\r\n    \"Estado\": \"Activo\",\r\n    \"Paraderos\": [\r\n      {\"id\": 1101, \"nombre\": \"Cruce Av. Independencia\", \"lat\": -7.1750, \"lng\": -78.5150},\r\n      {\"id\": 1102, \"nombre\": \"Óvalo de las Banderas\", \"lat\": -7.1700, \"lng\": -78.5080},\r\n      {\"id\": 1103, \"nombre\": \"UPN Campus\", \"lat\": -7.1650, \"lng\": -78.5020},\r\n      {\"id\": 1104, \"nombre\": \"Cruce Manco Cápac\", \"lat\": -7.1580, \"lng\": -78.4980},\r\n      {\"id\": 1105, \"nombre\": \"Evitamiento Norte\", \"lat\": -7.1450, \"lng\": -78.4900}\r\n    ]\r\n  },\r\n  {\r\n    \"RutaID\": 12,\r\n    \"NombreRuta\": \"Línea 14: Huambocancha - Comercio\",\r\n    \"Empresa\": \"Transportes Unidos Huambocancha\",\r\n    \"CostoViaje\": 1.50,\r\n    \"ColorHex\": \"#E64A19\",\r\n    \"Estado\": \"Activo\",\r\n    \"Paraderos\": [\r\n      {\"id\": 1201, \"nombre\": \"Huambocancha Alta\", \"lat\": -7.1100, \"lng\": -78.5400},\r\n      {\"id\": 1202, \"nombre\": \"Sector Los Cerrillos\", \"lat\": -7.1250, \"lng\": -78.5350},\r\n      {\"id\": 1203, \"nombre\": \"Cruce Bambamarca\", \"lat\": -7.1400, \"lng\": -78.5280},\r\n      {\"id\": 1204, \"nombre\": \"Dos de Mayo\", \"lat\": -7.1500, \"lng\": -78.5220},\r\n      {\"id\": 1205, \"nombre\": \"Jr. Comercio\", \"lat\": -7.1540, \"lng\": -78.5180}\r\n    ]\r\n  },\r\n  {\r\n    \"RutaID\": 13,\r\n    \"NombreRuta\": \"Cajamarca - Namora (Guitarras)\",\r\n    \"Empresa\": \"Transportes y Servicios Namora S.A.\",\r\n    \"CostoViaje\": 4.00,\r\n    \"ColorHex\": \"#303F9F\",\r\n    \"Estado\": \"Activo\",\r\n    \"Paraderos\": [\r\n      {\"id\": 1301, \"nombre\": \"Terminal Sur\", \"lat\": -7.1780, \"lng\": -78.4850},\r\n      {\"id\": 1302, \"nombre\": \"Laguna San Nicolás\", \"lat\": -7.2200, \"lng\": -78.3800},\r\n      {\"id\": 1303, \"nombre\": \"Matara Cruce\", \"lat\": -7.2500, \"lng\": -78.3000},\r\n      {\"id\": 1304, \"nombre\": \"Sector Guitarras\", \"lat\": -7.1950, \"lng\": -78.3300},\r\n      {\"id\": 1305, \"nombre\": \"Plaza Namora\", \"lat\": -7.1990, \"lng\": -78.3250}\r\n    ]\r\n  },\r\n  {\r\n    \"RutaID\": 14,\r\n    \"NombreRuta\": \"Línea 18: Santa Bárbara - Puga\",\r\n    \"Empresa\": \"Empresa Santa Bárbara Express\",\r\n    \"CostoViaje\": 1.00,\r\n    \"ColorHex\": \"#FBC02D\",\r\n    \"Estado\": \"Activo\",\r\n    \"Paraderos\": [\r\n      {\"id\": 1401, \"nombre\": \"Barrio Santa Bárbara\", \"lat\": -7.1500, \"lng\": -78.5350},\r\n      {\"id\": 1402, \"nombre\": \"Av. Mario Urteaga\", \"lat\": -7.1550, \"lng\": -78.5250},\r\n      {\"id\": 1403, \"nombre\": \"Jr. José Sabogal\", \"lat\": -7.1580, \"lng\": -78.5180},\r\n      {\"id\": 1404, \"nombre\": \"Jr. Puga\", \"lat\": -7.1560, \"lng\": -78.5160}\r\n    ]\r\n  },\r\n  {\r\n    \"RutaID\": 15,\r\n    \"NombreRuta\": \"Línea 09: Agocucho - Jr. Lima\",\r\n    \"Empresa\": \"Servicios Agocucho Tours\",\r\n    \"CostoViaje\": 1.50,\r\n    \"ColorHex\": \"#607D8B\",\r\n    \"Estado\": \"Activo\",\r\n    \"Paraderos\": [\r\n      {\"id\": 1501, \"nombre\": \"Agocucho Alto\", \"lat\": -7.1850, \"lng\": -78.5650},\r\n      {\"id\": 1502, \"nombre\": \"Puente Agocucho\", \"lat\": -7.1750, \"lng\": -78.5450},\r\n      {\"id\": 1503, \"nombre\": \"Av. Los Héroes\", \"lat\": -7.1680, \"lng\": -78.5280},\r\n      {\"id\": 1504, \"nombre\": \"Jr. Lima\", \"lat\": -7.1540, \"lng\": -78.5140}\r\n    ]\r\n  },\r\n  {\r\n    \"RutaID\": 16,\r\n    \"NombreRuta\": \"Línea 25: Pariamarca - Centro\",\r\n    \"Empresa\": \"Transportes y Turismo Pariamarca\",\r\n    \"CostoViaje\": 1.20,\r\n    \"ColorHex\": \"#8E24AA\",\r\n    \"Estado\": \"Activo\",\r\n    \"Paraderos\": [\r\n      {\"id\": 1601, \"nombre\": \"Pariamarca\", \"lat\": -7.1950, \"lng\": -78.5000},\r\n      {\"id\": 1602, \"nombre\": \"Av. San Martín de Porres\", \"lat\": -7.1750, \"lng\": -78.5050},\r\n      {\"id\": 1603, \"nombre\": \"Óvalo Musical\", \"lat\": -7.1678, \"lng\": -78.5012},\r\n      {\"id\": 1604, \"nombre\": \"Plaza de Armas\", \"lat\": -7.1553, \"lng\": -78.5153}\r\n    ]\r\n  },\r\n  {\r\n    \"RutaID\": 17,\r\n    \"NombreRuta\": \"Interprovincial: Cajamarca - San Marcos\",\r\n    \"Empresa\": \"Comité Interprovincial San Marcos\",\r\n    \"CostoViaje\": 8.00,\r\n    \"ColorHex\": \"#AFB42B\",\r\n    \"Estado\": \"Activo\",\r\n    \"Paraderos\": [\r\n      {\"id\": 1701, \"nombre\": \"Terminal Sur Evitamiento\", \"lat\": -7.1780, \"lng\": -78.4920},\r\n      {\"id\": 1702, \"nombre\": \"Cruce Namora\", \"lat\": -7.2100, \"lng\": -78.3500},\r\n      {\"id\": 1703, \"nombre\": \"Plaza Matara\", \"lat\": -7.2520, \"lng\": -78.2650},\r\n      {\"id\": 1704, \"nombre\": \"Ichocán Cruce\", \"lat\": -7.3200, \"lng\": -78.1800},\r\n      {\"id\": 1705, \"nombre\": \"Plaza San Marcos\", \"lat\": -7.3330, \"lng\": -78.1710}\r\n    ]\r\n  },\r\n  {\r\n    \"RutaID\": 18,\r\n    \"NombreRuta\": \"Línea 03: Chontapaccha - Centro\",\r\n    \"Empresa\": \"Servicios de Transporte Chontapaccha\",\r\n    \"CostoViaje\": 1.00,\r\n    \"ColorHex\": \"#D81B60\",\r\n    \"Estado\": \"Activo\",\r\n    \"Paraderos\": [\r\n      {\"id\": 1801, \"nombre\": \"Sector Chontapaccha\", \"lat\": -7.1650, \"lng\": -78.5100},\r\n      {\"id\": 1802, \"nombre\": \"Jr. Revilla\", \"lat\": -7.1620, \"lng\": -78.5120},\r\n      {\"id\": 1803, \"nombre\": \"Jr. Ucayali\", \"lat\": -7.1590, \"lng\": -78.5140},\r\n      {\"id\": 1804, \"nombre\": \"Jr. Huánuco\", \"lat\": -7.1560, \"lng\": -78.5160},\r\n      {\"id\": 1805, \"nombre\": \"Plaza de Armas\", \"lat\": -7.1553, \"lng\": -78.5153}\r\n    ]\r\n  },\r\n  {\r\n    \"RutaID\": 19,\r\n    \"NombreRuta\": \"Ruta: Cajamarca - Llacanora\",\r\n    \"Empresa\": \"Consorcio de Transportes Llacanora\",\r\n    \"CostoViaje\": 3.00,\r\n    \"ColorHex\": \"#1976D2\",\r\n    \"Estado\": \"Activo\",\r\n    \"Paraderos\": [\r\n      {\"id\": 1901, \"nombre\": \"Av. Atahualpa\", \"lat\": -7.1680, \"lng\": -78.4880},\r\n      {\"id\": 1902, \"nombre\": \"Iscoconga\", \"lat\": -7.1850, \"lng\": -78.4550},\r\n      {\"id\": 1903, \"nombre\": \"Cruce La Collpa\", \"lat\": -7.1950, \"lng\": -78.4400},\r\n      {\"id\": 1904, \"nombre\": \"Cataratas Llacanora\", \"lat\": -7.2000, \"lng\": -78.4350},\r\n      {\"id\": 1905, \"nombre\": \"Plaza Llacanora\", \"lat\": -7.2050, \"lng\": -78.4280}\r\n    ]\r\n  },\r\n  {\r\n    \"RutaID\": 20,\r\n    \"NombreRuta\": \"Línea 40: Puyllucana - Centro\",\r\n    \"Empresa\": \"E.T. Puyllucana S.R.L.\",\r\n    \"CostoViaje\": 1.80,\r\n    \"ColorHex\": \"#388E3C\",\r\n    \"Estado\": \"Activo\",\r\n    \"Paraderos\": [\r\n      {\"id\": 2001, \"nombre\": \"Puyllucana\", \"lat\": -7.1680, \"lng\": -78.4450},\r\n      {\"id\": 2002, \"nombre\": \"Carretera a Baños Km 4\", \"lat\": -7.1650, \"lng\": -78.4550},\r\n      {\"id\": 2003, \"nombre\": \"Entrada Baños\", \"lat\": -7.1630, \"lng\": -78.4630},\r\n      {\"id\": 2004, \"nombre\": \"UNC\", \"lat\": -7.1645, \"lng\": -78.4912},\r\n      {\"id\": 2005, \"nombre\": \"Plaza de Armas\", \"lat\": -7.1553, \"lng\": -78.5153}\r\n    ]\r\n  },\r\n  {\r\n    \"RutaID\": 21,\r\n    \"NombreRuta\": \"Línea 15: La Florida - Centro\",\r\n    \"Empresa\": \"Transportes La Florida Express\",\r\n    \"CostoViaje\": 1.00,\r\n    \"ColorHex\": \"#FF5722\",\r\n    \"Estado\": \"Activo\",\r\n    \"Paraderos\": [\r\n      {\"id\": 2101, \"nombre\": \"Barrio La Florida\", \"lat\": -7.1420, \"lng\": -78.5250},\r\n      {\"id\": 2102, \"nombre\": \"Av. San Martín\", \"lat\": -7.1500, \"lng\": -78.5200},\r\n      {\"id\": 2103, \"nombre\": \"Plaza de Armas\", \"lat\": -7.1553, \"lng\": -78.5153}\r\n    ]\r\n  },\r\n  {\r\n    \"RutaID\": 22,\r\n    \"NombreRuta\": \"Línea 07: San Antonio - Centro\",\r\n    \"Empresa\": \"E.T. San Antonio de Cajamarca\",\r\n    \"CostoViaje\": 1.00,\r\n    \"ColorHex\": \"#212121\",\r\n    \"Estado\": \"Activo\",\r\n    \"Paraderos\": [\r\n      {\"id\": 2201, \"nombre\": \"San Antonio Alto\", \"lat\": -7.1350, \"lng\": -78.5100},\r\n      {\"id\": 2202, \"nombre\": \"Cruce Vía Evitamiento Norte\", \"lat\": -7.1480, \"lng\": -78.5050},\r\n      {\"id\": 2203, \"nombre\": \"Jr. Junín\", \"lat\": -7.1570, \"lng\": -78.5140}\r\n    ]\r\n  }\r\n] ",
+                    "latency": 0,
+                    "statusCode": 200,
+                    "label": "",
+                    "headers": [],
+                    "bodyType": "INLINE",
+                    "filePath": "",
+                    "databucketID": "",
+                    "sendFileAsBody": false,
+                    "rules": [],
+                    "rulesOperator": "OR",
+                    "disableTemplating": false,
+                    "fallbackTo404": false,
+                    "default": true,
+                    "crudKey": "id",
+                    "callbacks": []
+                }
+            ],
+            "responseMode": null,
+            "streamingMode": null,
+            "streamingInterval": 0
+        }
+    ],
+    "rootChildren": [
+        {
+            "type": "route",
+            "uuid": "e45b03e1-c7b4-4ea0-babe-aa07f64194d4"
+        }
+    ],
+    "proxyMode": false,
+    "proxyHost": "",
+    "proxyRemovePrefix": false,
+    "tlsOptions": {
+        "enabled": false,
+        "type": "CERT",
+        "pfxPath": "",
+        "certPath": "",
+        "keyPath": "",
+        "caPath": "",
+        "passphrase": ""
+    },
+    "cors": true,
+    "headers": [
+        {
+            "key": "Content-Type",
+            "value": "application/json"
+        },
+        {
+            "key": "Access-Control-Allow-Origin",
+            "value": "*"
+        },
+        {
+            "key": "Access-Control-Allow-Methods",
+            "value": "GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS"
+        },
+        {
+            "key": "Access-Control-Allow-Headers",
+            "value": "Content-Type, Origin, Accept, Authorization, Content-Length, X-Requested-With"
+        }
+    ],
+    "proxyReqHeaders": [
+        {
+            "key": "",
+            "value": ""
+        }
+    ],
+    "proxyResHeaders": [
+        {
+            "key": "",
+            "value": ""
+        }
+    ],
+    "data": [],
+    "callbacks": []
+}
