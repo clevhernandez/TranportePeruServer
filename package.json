@@ -1,0 +1,10 @@
+{
+  "name": "transporte-peru-api",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "mockoon-cli start --data ./TransportePeruApi.json --port $PORT --hostname 0.0.0.0"
+  },
+  "dependencies": {
+    "@mockoon/cli": "latest"
+  }
+}
